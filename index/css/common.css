@@ -288,3 +288,6 @@ body{overflow-x:hidden;}
     display: block;
     float: left;
 }
+.top_case{
+width:100%; background:url(../images/light_btm1.png);
+}

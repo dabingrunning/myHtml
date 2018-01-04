@@ -70,7 +70,7 @@ $(function(){
             if(jishu==0){
                 $('.top').removeClass('xz');
                 $('.navw,.nav').css({'height':'60px'});
-                $('.navw').css({'position':'fixed','top':'-60px'});
+                $('.navw').css({'position':'fixed','top':'0px'});
                 $('.navw').animate({'top':'0px'},150)
                 $('.logo img').css({'height':'52px'});
                 $('.logo').css({'margin-top':'-26px'});
@@ -83,8 +83,8 @@ $(function(){
                 $('.navw,.nav').css({'height':'135px'});
                 $('.navw').css({'position':'absolute'});
                 $('.logo img').css({'height':'76px'});
-                $('.logo').css({'margin-top':'-38px'});
-                $('.navw').animate({'top':wh-150+'px'},150)
+                $('.logo').css({'margin-top':'-40px'});
+                $('.navw').animate({'top':'0px'},150)
                 jishu=0;
             }
         }

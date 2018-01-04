@@ -32,6 +32,7 @@ m,
     min-width: 1200px;
     position: relative;
     z-index: 101100;
+    margin-top: -3%;
 }
 
 .bannerwz {
@@ -86,8 +87,8 @@ m,
 }
 
 .navpos {
-    position: absolute;
-    bottom: 15px;
+    /*position: absolute;*/
+    /*bottom: 15px;*/
     left: 0px;
     border-bottom: solid 1px #ccc;
     z-index: 11111;
@@ -232,7 +233,7 @@ m,
 }
 
 .service {
-    height: 440px;
+    height: 490px;
     background: #fff;
     overflow: hidden;
 }
@@ -243,7 +244,7 @@ m,
 
 .servbt {
     color: #222222;
-    font-size: 36px;
+    font-size: 72px;
     font-family: SimSun;
 }
 
@@ -340,7 +341,7 @@ m,
 }
 .case-second_title{
     color: white;
-    font-size: 16px;
+    font-size: 36px;
 }
 
 .casek {
@@ -386,7 +387,7 @@ m,
 }
 
 .casemain {
-    margin-top: -400px;
+    margin-top: -310px;
     position: relative;
     z-index: 110;
     left: 50%;
@@ -832,7 +833,7 @@ m,
 */
 
 .hezuo {
-    height: 425px;
+    height: 445px;
     position: relative;
     overflow: hidden;
     /*background: url(../images/dabj2.jpg) no-repeat center center;*/
@@ -906,10 +907,10 @@ m,
 .team {
     position: relative;
     overflow: hidden;
-    /*background: url(../images/WechatIMG2599.jpeg) no-repeat center center;*/
     background-attachment: fixed;
     position: relative;
     z-index: 1111;
+    margin-top: -8px;
 }
 
 .teamjs {
@@ -1175,7 +1176,7 @@ m,
 }
 
 .teamsec1 a span.bsbtm {
-    background: url(../images/WechatIMG2599.jpeg);
+    background: url(../images/team-background.png);
     position: absolute;
     top: 0px;
     left: 0px;
@@ -1202,8 +1203,8 @@ m,
 .teamsec1 {
     width: 100%;
     position: relative;
-    height: 580px;
-    background: url(../images/WechatIMG2599.jpeg) no-repeat;
+    /*height: 580px;*/
+    background: url(../images/team-background.png) no-repeat;
 }
 
 .posr {
@@ -1215,19 +1216,19 @@ m,
     position: absolute;
     top: 40px;
     left: 50%;
-    width: 719px;
-    margin-left: -360px;
+    width: 830px;
+    margin-left: -406px;
 }
 
 .tdtpz {
     display: block;
-    background: #c29459;
+    /*background: #c29459;*/
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 35%;
+    /*left: 50%;*/
     z-index: 11111;
-    margin-left: -360px;
-    margin-top: -100px;
+    /*margin-left: -360px;*/
+    /*margin-top: -100px;*/
     -webkit-transition: all 1s ease-in-out;
     -o-transition: all 1s ease-in-out;
     transition: all 1s ease-in-out;
@@ -1527,12 +1528,12 @@ m,
         -o-transform: scale(1);
         transform: scale(1);
     }
-    10% {
-        -webkit-transform: ;
-        -ms-transform: ;
-        -o-transform: ;
-        transform: ;
-    }
+    /*10% {*/
+        /*-webkit-transform: ;*/
+        /*-ms-transform: ;*/
+        /*-o-transform: ;*/
+        /*transform: ;*/
+    /*}*/
     2% {
         -webkit-transform: rotate(0deg);
         -ms-transform: rotate(0deg);
@@ -1608,12 +1609,12 @@ m,
         -o-transform: scale(1);
         transform: scale(1);
     }
-    10% {
-        -webkit-transform: ;
-        -ms-transform: ;
-        -o-transform: ;
-        transform: ;
-    }
+    /*10% {*/
+        /*-webkit-transform: ;*/
+        /*-ms-transform: ;*/
+        /*-o-transform: ;*/
+        /*transform: ;*/
+    /*}*/
     2% {
         -webkit-transform: rotate(0deg);
         -ms-transform: rotate(0deg);
@@ -1689,12 +1690,12 @@ m,
         -o-transform: scale(1);
         transform: scale(1);
     }
-    10% {
-        -webkit-transform: ;
-        -ms-transform: ;
-        -o-transform: ;
-        transform: ;
-    }
+    /*10% {*/
+        /*-webkit-transform: ;*/
+        /*-ms-transform: ;*/
+        /*-o-transform: ;*/
+        /*transform: ;*/
+    /*}*/
     2% {
         -webkit-transform: rotate(0deg);
         -ms-transform: rotate(0deg);
@@ -1770,12 +1771,12 @@ m,
         -o-transform: scale(1);
         transform: scale(1);
     }
-    10% {
-        -webkit-transform: ;
-        -ms-transform: ;
-        -o-transform: ;
-        transform: ;
-    }
+    /*10% {*/
+        /*-webkit-transform: ;*/
+        /*-ms-transform: ;*/
+        /*-o-transform: ;*/
+        /*transform: ;*/
+    /*}*/
     2% {
         -webkit-transform: rotate(0deg);
         -ms-transform: rotate(0deg);
@@ -2112,7 +2113,7 @@ a.index_xf1:hover .index_xfnr1 {
 }
 
 .index_b {
-    width: 600%;
+    width: 500%;
     height: 100%;
 }
 
@@ -2129,19 +2130,19 @@ a.index_xf1:hover .index_xfnr1 {
 }
 
 .ind_b1 {
-    background: url(../images/light_banner1.jpg) no-repeat center center;
+    background: url(../images/content/banner03.jpg) no-repeat center center;
 }
 
 .ind_b2 {
-    background: url(../images/light_b4.jpg) no-repeat center center;
+    background: url(../images/content/banner04.jpg) no-repeat center center;
 }
 
 .ind_b3 {
-    /*background: url(../images/light_b1.jpg) no-repeat center center;*/
+    background: url(../images/content/banner02.jpg) no-repeat center center;
 }
 
 .ind_b4 {
-    /*background: url(../images/light_b3.jpg) no-repeat center center;*/
+    background: url(../images/content/banner01.jpg) no-repeat center center;
 }
 
 .ind_b5 {
@@ -2599,4 +2600,17 @@ a.index_xf1:hover .index_xfnr1 {
     line-height: 16px;
     font-weight: normal;
     padding-bottom: 20px;
+}
+.img-box{
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    width:100%;
+    /*margin:auto;*/
+    margin-top: 225px;
+}
+.team-top-img{
+    width:100%;
 }

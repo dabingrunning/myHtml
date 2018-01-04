@@ -1,19 +1,7 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh">
 <head>
-    <meta charset="UTF-8">
-    <title>善鸟-定制专家</title>
-    <!--<meta name="viewport" content="target-densitydpi=device-dpi,width=1200px, user-scalable=no">-->
-    <meta name="keywords" content="">
-    <meta name="description" content="">
-    <link rel="stylesheet" href="css/common.css"/>
-    <link rel="stylesheet" href="css/index.css"/>
-    <link rel="icon" href="images/title_logo.jpg" type="image/x-icon">
-    <script src="js/jquery-1.9.1.min.js"></script>
-    <script language="javascript" src="js/index_banner.js"></script>
-    <script language="javascript" src="js/index.js"></script>
-
-
+    <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge"><!--ie使用edge渲染模式-->
     <meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no" id="viewport" name="viewport">
     <meta name="renderer" content="webkit"><!--360渲染模式-->
@@ -32,84 +20,69 @@
     <meta name="msapplication-tap-highlight" content="no"><!-- windows phone 点击无高光 -->
     <link rel="stylesheet" href="css/slide_css/slidecss.css" />
 
+    <title>善鸟-定制专家</title>
+    <!--<meta name="viewport" content="target-densitydpi=device-dpi,width=1200px, user-scalable=no">-->
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <link rel="stylesheet" href="css/common.css"/>
+    <link rel="stylesheet" href="css/index.css"/>
+    <link rel="icon" href="images/title_logo.jpg" type="image/x-icon">
+    <script src="js/jquery-1.9.1.min.js"></script>
+    <script language="javascript" src="js/index_banner.js"></script>
+    <script language="javascript" src="js/index.js"></script>
 </head>
 <body>
-<section class="top">
-    <!--<div class="index_banner ovh">-->
-        <!--<div class="index_b" style="position:relative;">-->
-            <!--<div class="ind_b ind_b1" style="background:url('images/content/banner03.jpg') no-repeat center center;background-size: auto">-->
-            <!--</div>-->
-            <!--<div class="ind_b ind_b2"-->
-                 <!--style="background:url('images/content/banner04.jpg') no-repeat center center;background-size: auto"-->
-                 <!--onclick="location='case_list.html'">-->
-            <!--</div>-->
-            <!--<div class="ind_b ind_b3"-->
-                 <!--style="background:url('images/content/banner02.jpg') no-repeat center center;background-size: auto"></div>-->
-            <!--<div class="ind_b ind_b4"-->
-                 <!--style="background:url('images/content/banner01.jpg') no-repeat center center;background-size: auto"></div>-->
-            <!--<div class="ind_b ind_b4"-->
-                 <!--style="background:url('images/content/banner01.jpg') no-repeat center center;background-size: auto"></div>-->
-            <!--&lt;!&ndash;<div class="ind_b ind_b5"&ndash;&gt;-->
-                 <!--&lt;!&ndash;style="background:url('images/light_b4.jpg') no-repeat center center;"></div>&ndash;&gt;-->
-        <!--</div>-->
-        <!--<div class="index_bnav">-->
-            <!--<ul>-->
-                <!--<li></li>-->
-                <!--<li></li>-->
-                <!--<li></li>-->
-                <!--<li></li>-->
-                <!--<li></li>-->
-            <!--</ul>-->
-        <!--</div>-->
-    <!--</div>-->
-    <div class="js-silder">
-        <div class="silder-scroll">
-            <div class="silder-main">
-                <div class="silder-main-img">
-                    <img src="images/content/banner03.jpg" alt="">
-                </div>
-                <div class="silder-main-img">
-                    <img src="images/content/banner04.jpg" alt="">
-                </div>
-                <div class="silder-main-img">
-                    <img src="images/content/banner01.jpg" alt="">
-                </div>
+<div class="navw xz2 trans navpos">
+    <nav class="nav auto w">
+        <a href="./" class="logo">
+            <img src="images/logo.jpg" height="76" class="logo1">
+        </a>
+        <ul class="ul fix_case">
+            <li class="fl"><a href="./" class="xz"><span class="index_sp1"><span>首 页</span></span><span
+                    class="index_sp2"><span>首 页</span></span></a></li>
+            <li class="fl"><a href="case_list.html" target="_self"><span
+                    class="index_sp1"><span>案例</span></span><span class="index_sp2"><span>案例</span></span></a></li>
+            <li class="fl"><a href="#team"><span
+                    class="index_sp1"><span>联系我们</span></span><span class="index_sp2"><span>联系我们</span></span></a>
+            </li>
+        </ul>
+    </nav>
+</div>
+<div class="js-silder">
+    <div class="silder-scroll">
+        <div class="silder-main">
+            <div class="silder-main-img">
+                <img src="images/content/banner03.jpg" alt="">
+            </div>
+            <div class="silder-main-img">
+                <img src="images/content/banner02.jpg" alt="">
+            </div>
+            <div class="silder-main-img">
+                <img src="images/content/banner01.jpg" alt="">
             </div>
         </div>
     </div>
+</div>
 
 
-    <script src="js/jquery-1.11.3.min.js" type="text/javascript"></script>
-    <script src="js/wySilder.min.js" type="text/javascript"></script>
-    <script>
-        $(function (){
-            $(".js-silder").silder({
-                auto: true,//自动播放，传入任何可以转化为true的值都会自动轮播
-                speed: 5,//轮播图运动速度
-                sideCtrl: true,//是否需要侧边控制按钮
-                bottomCtrl: true,//是否需要底部控制按钮
-                defaultView: 0,//默认显示的索引
-                interval: 3000,//自动轮播的时间，以毫秒为单位，默认3000毫秒
-                activeClass: "active",//小的控制按钮激活的样式，不包括作用两边，默认active
-            });
+<script src="js/jquery-1.11.3.min.js" type="text/javascript"></script>
+<script src="js/wySilder.min.js" type="text/javascript"></script>
+<script>
+    $(function (){
+        $(".js-silder").silder({
+            auto: true,//自动播放，传入任何可以转化为true的值都会自动轮播
+            speed: 5,//轮播图运动速度
+            sideCtrl: true,//是否需要侧边控制按钮
+            bottomCtrl: true,//是否需要底部控制按钮
+            defaultView: 0,//默认显示的索引
+            interval: 3000,//自动轮播的时间，以毫秒为单位，默认3000毫秒
+            activeClass: "active",//小的控制按钮激活的样式，不包括作用两边，默认active
         });
-    </script>
-    <section class="navw xz2 trans navpos">
-        <nav class="nav auto w">
-            <a href="./" class="logo">
-                <img src="images/logo.jpg" height="76" class="logo1">
-            </a>
-            <ul class="ul fix_case">
-                <li class="fl"><a href="./" class="xz"><span class="index_sp1"><span>首 页</span></span><span
-                        class="index_sp2"><span>首 页</span></span></a></li>
-                <li class="fl"><a href="case_list.html" target="_self"><span
-                        class="index_sp1"><span>案例</span></span><span class="index_sp2"><span>案例</span></span></a></li>
-                <li class="fl"><a href="#team"><span
-                        class="index_sp1"><span>联系我们</span></span><span class="index_sp2"><span>联系我们</span></span></a>
-                </li>
-            </ul>
-        </nav>
-    </section>
+    });
+</script>
+
+<!--<section class="top">-->
+
     <!--<script type="text/javascript">-->
     <!--jQuery(".slideBox").slide({-->
     <!--mainCell: ".bd ul",-->
@@ -120,7 +93,7 @@
     <!--interTime: 4000-->
     <!--});-->
     <!--</script>-->
-</section>
+<!--</section>-->
 <!-- 我们的服务-->
 <section class="service wb light_indexbj">
     <section class="service1 w">
@@ -367,5 +340,10 @@
         </section>
     </section>
 </footer>
+
+<div style="text-align:center;margin:20px 0; font:normal 14px/24px 'MicroSoft YaHei';">
+    <p>适用浏览器：360、FireFox、Chrome、Safari、Opera、傲游、搜狗、世界之窗. 不支持IE8及以下浏览器。</p>
+    <p>来源：<a href="http://sc.chinaz.com/" target="_blank">站长素材</a></p>
+</div>
 </body>
 </html>
