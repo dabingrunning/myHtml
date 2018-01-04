@@ -159,7 +159,7 @@ body{overflow-x:hidden;}
 /*.navw{width:100%; background:url(../images/light_btm1.png);  }*/
 .nav{width:1200px;height:100%;position: relative;}
 .nav a{font-family:'fzlt';}
-.logo{position: absolute;top:50%;left:0px;margin-top:-38px;
+.logo{position: absolute;top:50%;left:0px;margin-top:-30px;
     /*-webkit-transition: all .5s ease-in-out;
     -o-transition: all .5s ease-in-out;
     transition: all .5s ease-in-out;

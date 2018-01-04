@@ -80,10 +80,10 @@ $(function(){
         if(scr<wh-15){
             if(jishu==1){
                 $('.top').addClass('xz');
-                $('.navw,.nav').css({'height':'135px'});
+                $('.navw,.nav').css({'height':'80px'});
                 $('.navw').css({'position':'absolute'});
-                $('.logo img').css({'height':'76px'});
-                $('.logo').css({'margin-top':'-40px'});
+                $('.logo img').css({'height':'60px'});
+                $('.logo').css({'margin-top':'-30px'});
                 $('.navw').animate({'top':'0px'},150)
                 jishu=0;
             }
